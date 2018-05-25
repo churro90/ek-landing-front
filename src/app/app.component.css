@@ -1,0 +1,165 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+
+
+
+
+
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+
+.texto-footer{
+    font-family: 'BrandonText-Regular';
+    color: rgba(255, 255, 255);
+    text-transform: uppercase;
+}
+
+
+hr{
+    background-color: white;
+}
+
+.pdv{
+    margin: 8% 0 0 0;
+}
+
+h2{
+    font-family: 'BrandonText-Bold';
+    color: floralwhite;
+    text-transform: uppercase;
+    font-size: 75px;
+    
+}
+
+h4{
+    font-family: 'BrandonText-Bold';
+    color: black;
+    text-transform: uppercase;
+}
+
+label{
+    color: black;
+}
+
+.tarjeta{
+    width: 200px;
+    height: 130px;
+    background-color: white;
+    opacity: 0.7;
+    -webkit-box-shadow: 9px 10px 18px -1px rgba(117,117,117,0.75);
+    -moz-box-shadow: 9px 10px 18px -1px rgba(117,117,117,0.75);
+    box-shadow: 9px 10px 18px -1px rgba(117,117,117,0.75);
+}
+
+p{
+    font-family: 'Avenir Light';
+    color: rgba(29,29,27);
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+.btn-primary{
+    background-color: rgb(26,177,230);
+    border: 0px solid;
+    width: 235px;
+    height: 38px;
+}
+ 
+.custom-form-control{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-transform: uppercase;
+
+} 
+
+.select{
+  width: 230px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  overflow: hidden;
+  background: url(../assets/images/flecha.png) 96% / 20% no-repeat;
+}
+
+.select select{
+  background-color: rgba(255, 255, 255, 0.055) !important;
+  width: 250px;
+  font-size: 16px;
+ /*  border: 1px solid #ccc; */
+ 
+}
+
+.custom-form-control{
+    border: 1.5px solid rgb(255, 255, 255);
+
+}
+.email{
+    color: black;
+    width: 225px;
+}
+
+option{
+    color: black;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+
+.left{
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+}
+
+.right{
+    position: absolute;
+    top: 50%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+}
